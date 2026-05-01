@@ -52,8 +52,8 @@ const renderLink = (l: (typeof links)[number], onClick?: () => void) => (
       <div className="container-luxury flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
           <span className="font-display text-2xl font-bold tracking-tight">
-            <span className="text-gold-gradient">RK</span>
-            <span className="text-foreground"> Thukral</span>
+            <span className="text-gold-gradient">Mens</span>
+            <span className="text-foreground">Wear</span>
           </span>
         </Link>
 

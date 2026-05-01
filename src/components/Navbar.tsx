@@ -76,7 +76,7 @@ const renderLink = (l: (typeof links)[number], onClick?: () => void) => (
           </button>
 
           <a
-            href={waLink("Hi RK Thukral, I'm interested in wholesale orders.")}
+            href={waLink("Hi, I'm interested in wholesale orders.")}
             target="_blank"
             rel="noopener noreferrer"
             className="hidden lg:inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-gold text-primary-foreground text-xs uppercase tracking-[0.18em] font-semibold rounded-sm hover:shadow-gold transition-all duration-500 hover:-translate-y-0.5"

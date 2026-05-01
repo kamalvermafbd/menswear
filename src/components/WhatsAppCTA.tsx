@@ -28,7 +28,7 @@ export const WhatsAppCTA = () => {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href={waLink("Hi RK Thukral, I'm sharing a product screenshot — please quote your wholesale rate.")}
+              href={waLink("Hi, I'm sharing a product screenshot — please quote your wholesale rate.")}
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-10 py-5 bg-whatsapp text-whatsapp-foreground rounded-sm font-semibold text-sm uppercase tracking-[0.18em] shadow-elegant hover:shadow-glow transition-all duration-500 hover:-translate-y-1 animate-pulse-gold"

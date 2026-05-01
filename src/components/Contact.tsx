@@ -12,7 +12,7 @@ export const Contact = () => {
       toast.error("Please share your name and phone number.");
       return;
     }
-    const msg = `Hi RK Thukral,\n\nName: ${form.name}\nPhone: ${form.phone}\n\nInquiry: ${form.message || "Wholesale catalogue request"}`;
+    const msg = `Hi ,\n\nName: ${form.name}\nPhone: ${form.phone}\n\nInquiry: ${form.message || "Wholesale catalogue request"}`;
     window.open(waLink(msg), "_blank");
     toast.success("Opening WhatsApp — your message is ready!");
     setForm({ name: "", phone: "", message: "" });
@@ -49,7 +49,7 @@ export const Contact = () => {
               </a>
 
               <a
-                href={waLink("Hi RK Thukral, I'd like to know more about your wholesale collection.")}
+                href={waLink("Hi, I'd like to know more about your wholesale collection.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-5 p-5 border border-border hover:border-primary/60 transition-all duration-500 group rounded-sm hover:bg-card"

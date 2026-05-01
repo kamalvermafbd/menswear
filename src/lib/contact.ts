@@ -1,8 +1,8 @@
-export const WHATSAPP_NUMBER = "918968956553";
-export const PHONE_DISPLAY = "+91 89689 56553";
-export const INSTAGRAM_HANDLE = "rk.thukral";
-export const BRAND_NAME = "RK Thukral";
-export const OWNER_NAME = "Shivam Thukral";
+export const WHATSAPP_NUMBER = "919999999999";
+export const PHONE_DISPLAY = "+91 99999 99999";
+export const INSTAGRAM_HANDLE = "menswear";
+export const BRAND_NAME = "Menswear";
+export const OWNER_NAME = "Ravi";
 export const LOCATION = "Ludhiana, Punjab";
 
 export const waLink = (msg: string) =>

@@ -56,7 +56,7 @@ export const Hero = () => {
             style={{ animationDelay: "0.45s" }}
           >
             <a
-              href={waLink("Hi RK Thukral, I want to place a bulk wholesale order. Please share your latest catalogue & rates.")}
+              href={waLink("Hi, I want to place a bulk wholesale order. Please share your latest catalogue & rates.")}
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-gold text-primary-foreground rounded-sm font-semibold text-sm uppercase tracking-[0.18em] shadow-gold hover:shadow-glow transition-all duration-500 hover:-translate-y-1"

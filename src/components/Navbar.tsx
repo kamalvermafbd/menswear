@@ -99,7 +99,7 @@ const renderLink = (l: (typeof links)[number], onClick?: () => void) => (
           <nav className="container-luxury py-6 flex flex-col gap-5">
             {links.map((l) => renderLink(l, () => setOpen(false)))}
             <a
-              href={waLink("Hi RK Thukral, I'm interested in wholesale orders.")}
+              href={waLink("Hi , I'm interested in wholesale orders.")}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex justify-center px-5 py-3 bg-gradient-gold text-primary-foreground text-xs uppercase tracking-[0.18em] font-semibold rounded-sm"

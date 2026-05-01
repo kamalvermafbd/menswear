@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
             <div className="font-display text-3xl font-bold mb-5">
-              <span className="text-gold-gradient">RK</span> Thukral
+              <span className="text-gold-gradient"></span>
             </div>
             <p className="text-muted-foreground max-w-sm leading-relaxed mb-6">
               Premium wholesale fashion supplier from {LOCATION}. Trusted by 500+ resellers
@@ -25,7 +25,7 @@ export const Footer = () => {
                 <Instagram size={18} />
               </a>
               <a
-                href={waLink("Hi RK Thukral!")}
+                href={waLink("Hi!")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-sm border border-border hover:border-primary hover:bg-primary/10 flex items-center justify-center text-muted-foreground hover:text-primary transition-all"
@@ -78,7 +78,7 @@ export const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-border/60 flex flex-col md:flex-row items-center justify-between gap-4 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-          <div>© {new Date().getFullYear()} RK Thukral. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Menswear. All rights reserved.</div>
           <div>Crafted with <span className="text-primary">✦</span> in Ludhiana, Punjab</div>
         </div>
       </div>

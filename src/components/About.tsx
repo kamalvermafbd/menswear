@@ -16,13 +16,13 @@ export const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <div className="text-xs uppercase tracking-[0.3em] text-primary mb-6">
-              — About RK Thukral
+              — About Menswear
             </div>
             <h2 className="font-display text-4xl md:text-6xl font-bold leading-[1.05] mb-8">
               A trusted name in <span className="text-gold-gradient italic">wholesale</span> fashion supply.
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              Based in {LOCATION} — India's largest apparel manufacturing hub — RK Thukral
+              Based in {LOCATION} — India's largest apparel manufacturing hub — Menswear
               has built a reputation for delivering trendy, premium-quality clothing at true
               wholesale prices. We supply retail shops, boutiques and resellers nationwide.
             </p>
